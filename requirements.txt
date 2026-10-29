@@ -1,0 +1,4 @@
+# Reference environment: Python 3.9+
+numpy>=1.23
+taichi==1.7.4
+tqdm>=4.64

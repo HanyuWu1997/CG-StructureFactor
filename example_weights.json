@@ -1,0 +1,12 @@
+{
+  "_comment": "Example only; the reference workflow uses equal weights and does not require this file.",
+  "CC2": 1.0,
+  "COO": 1.0,
+  "CO2": 1.0,
+  "C31": 1.0,
+  "C4": 1.0,
+  "C32": 1.0,
+  "NC4": 1.0,
+  "C2": 1.0,
+  "SO3": 1.0
+}
