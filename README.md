@@ -1,5 +1,14 @@
 # CG Structure Factor
 
+## CG Structure Factor Analysis
+
+This repository provides a Python-based tool for calculating the reciprocal-space static structure factor of coarse-grained molecular dynamics systems, with a particular focus on self-assembled surfactant and lyotropic liquid-crystalline structures. The script supports multi-frame PDB trajectories, GPU acceleration with Taichi, radial averaging of \(S(q)\), and three-dimensional reciprocal-space Bragg-peak analysis.
+
+This project was developed based on and inspired by the original [`structure_factor`](https://github.com/donshen/structure_factor) repository by **donshen**. We sincerely thank the original author for making the code publicly available and providing the foundation for this work.
+
+To better accommodate the specific coarse-grained systems studied here, the original workflow was further modified and extended, including updates for newer versions of Taichi, support for coarse-grained bead representations, multi-model PDB trajectories, water-bead exclusion, reciprocal-lattice analysis, and multi-frame averaging. These modifications and code refinements were carried out with assistance from **ChatGPT (OpenAI)**.
+
+The current implementation is intended primarily for analyzing structural periodicity, Bragg-peak positions, and reciprocal-space ordering in coarse-grained simulations. It should be regarded as a geometric/static structure-factor analysis rather than a direct calculation of absolute experimental SAXS intensities.
 GPU-accelerated reciprocal-space static structure-factor analysis for coarse-grained (CG) self-assembled systems.
 
 The code was developed for coarse-grained lyotropic liquid-crystalline and surfactant systems, including lamellar, hexagonal-columnar (H1), and disordered/micellar morphologies.
